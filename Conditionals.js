@@ -21,4 +21,6 @@ function reward(day, time) {
     return "Sleep!";
   }
 }
+// time must be a value between 0 and 24, or 0
+// day is only relevant if it's wednesday. Can input "wednesday", "Wednesday", or "wed"
 console.log(reward("wed", 18));
