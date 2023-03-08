@@ -21,4 +21,4 @@ function reward(day, time) {
     return "Sleep!";
   }
 }
-console.log(reward("wtues", 18));
+console.log(reward("wed", 18));
